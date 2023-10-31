@@ -13,15 +13,17 @@ namespace CanadaHolidaysApp.ViewModels
             Holidays = new ObservableCollection<Holiday>
             {
                 new Holiday { Name = "New Year's Day", Date = new DateTime(DateTime.Now.Year, 1, 1) },
-                new Holiday { Name = "Good Friday", Date = new DateTime(DateTime.Now.Year, 4, 15) },
-                new Holiday { Name = "Victoria Day", Date = new DateTime(DateTime.Now.Year, 5, 24) },
+                new Holiday { Name = "St. Patrick's Day", Date = new DateTime(DateTime.Now.Year, 3, 17) },
+                new Holiday { Name = "St. George's Day", Date = new DateTime(DateTime.Now.Year, 4, 23) },
+                new Holiday { Name = "National Aboriginal Day", Date = new DateTime(DateTime.Now.Year, 6, 21) },
+                new Holiday { Name = "Féte Nationale", Date = new DateTime(DateTime.Now.Year, 6, 24) },
+                new Holiday { Name = "Discovery Day", Date = new DateTime(DateTime.Now.Year, 6, 24) },
                 new Holiday { Name = "Canada Day", Date = new DateTime(DateTime.Now.Year, 7, 1) },
-                new Holiday { Name = "Civic Day", Date = new DateTime(DateTime.Now.Year, 8, 2) },
-                new Holiday { Name = "Labour Day", Date = new DateTime(DateTime.Now.Year, 9, 6) },
-                new Holiday { Name = "Thanksgiving", Date = new DateTime(DateTime.Now.Year, 10, 11) },
+                new Holiday { Name = "Nunavut Day", Date = new DateTime(DateTime.Now.Year, 7, 9) },
+                new Holiday { Name = "National Day for Truth and Reconciliation", Date = new DateTime(DateTime.Now.Year, 9, 30) },
                 new Holiday { Name = "Remembrance Day", Date = new DateTime(DateTime.Now.Year, 11, 11) },
                 new Holiday { Name = "Christmas Day", Date = new DateTime(DateTime.Now.Year, 12, 25) },
-                new Holiday { Name = "Boxing Day", Date = new DateTime(DateTime.Now.Year, 12, 26) }
+                new Holiday { Name = "Boxing Day", Date = new DateTime(DateTime.Now.Year, 12, 26) },
             };
         }
     }

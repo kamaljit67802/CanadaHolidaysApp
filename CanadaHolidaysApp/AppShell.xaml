@@ -3,12 +3,12 @@
     x:Class="CanadaHolidaysApp.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:CanadaHolidaysApp"
+    xmlns:views="clr-namespace:CanadaHolidaysApp.Views"
+    xmlns:local="clr-namespace:CanadaHolidaysApp" 
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <ShellContent Route="HolidaysPage" ContentTemplate="{DataTemplate views:HolidaysPage}" />
+    <ShellContent Title="Home" ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
+
 
 </Shell>
